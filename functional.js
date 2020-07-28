@@ -33,3 +33,5 @@ function postTransactions() {
 for (let i = 0; i < config.transactionsCount; i++) {
     baseRequest(config.getTransactionUrl, processTransaction);
 }
+
+// Some comment here
